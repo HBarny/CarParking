@@ -1,0 +1,18 @@
+/* CSS for contact.html */
+
+.contact-section {
+    background-color: #eaeaea;
+    padding: 50px 0;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    text-align: center;
+    color: #666;
+  }
+  

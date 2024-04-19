@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Z.sabo</title>
+  <link rel="stylesheet" href="Book.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="Logo/Logo.png" alt="Logo">
+      <h1><Span style="color: black; font-size: 40px;">Z</Span>sabo</h1>
+      <nav>
+        <ul>
+          <li><a href="../Home-Page/home.html">Home</a></li>
+          <li><a href="../About-Page/About.html">About</a></li>
+          <li><a href="../Service-Page/Service.html">Services</a></li>
+          <li><a href="../Contact-Page/Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="booking-window">
+      <h2>Book a Parking Spacer</h2>
+      <form id="bookingForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required>
+          </div>
+          <div class="form-group">
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="startTime">Start Time:</label>
+            <input type="time" id="startTime" required>
+          </div>
+          <div class="form-group">
+            <label for="endTime">End Time:</label>
+            <input type="time" id="endTime" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+          </div>
+          <div class="form-group">
+            <label for="idNumber">ID Card Number:</label>
+            <input type="text" id="idNumber" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="carRegistration">Car Registration Number:</label>
+            <input type="text" id="carRegistration" required>
+          </div>
+          <div class="form-group">
+            <label for="carMake">Car Make:</label>
+            <input type="text" id="carMake" required>
+          </div>
+        </div>
+        <button type="button" id="nextButton">Next</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="Book.js"></script>
+</body>
+</html>
