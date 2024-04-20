@@ -8,10 +8,10 @@ const port = 3000;
 
 // MySQL connection configuration
 const connection = mysql.createConnection({
-  host: @@{MySQL.address}@@,
-  user: @@{Mysql_user}@@,
-  password: @@{Mysql_password}@@,
-  database: @@{Database_name}@@
+  host: '192.168.48.131',
+  user: 'root',
+  password: '123456',
+  database: 'barny'
 });
 
 // Connect to MySQL
